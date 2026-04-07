@@ -4,7 +4,6 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ message: 'Method not allowed' });
   const { videoUrl } = req.body;
   try {
-    
     const response = await axios.post('[https://social-download-all-in-one.p.rapidapi.com/v1/social/autolink](https://social-download-all-in-one.p.rapidapi.com/v1/social/autolink)', 
       { url: videoUrl },
       {
