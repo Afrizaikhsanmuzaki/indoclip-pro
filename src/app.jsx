@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Scissors, Youtube, Instagram, Video, Download, Sparkles, Loader2, Zap, AlertCircle, TrendingUp, Clock } from 'lucide-react';
 
 // API Gemini untuk Analisis (Masukkan API Key kamu di sini)
-const geminiKey = ""; 
+const geminiKey = "AIzaSyA5j6QK58Uayfcu_ffZvF3PqW5m9w2hE3E"; 
 
 const App = () => {
   const [url, setUrl] = useState('');
